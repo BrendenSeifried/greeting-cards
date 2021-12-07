@@ -10,19 +10,17 @@ nameInput.addEventListener('input', () => {
 /*----------------------------------------------------------- */
 
 const sender = document.getElementById('sender'); 
-
 const sent = document.getElementById('sent');
-//console.log(showName);
 
-sender.addEventListener('input', () => {
-  // console.log('input changed', nameInput.value); 
+sender.addEventListener('input', () => { 
   sent.textContent = sender.value;
 });
    
 //------------------------------------------------------------------------------------
 
-
-  const themeSelect = document.getElementById('theme-select');
+ // Theme
+const themeSelect = document.getElementById('theme-select');
+//const character = document.getElementById('character');
 themeSelect.addEventListener('change', () => {
   //character.classList.value = '';
   //character.classList.add(themeSelect.value);

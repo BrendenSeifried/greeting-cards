@@ -11,17 +11,17 @@ body {
     padding: 40px;
 }
 
-#container {
+/*#container {
   display: grid;
   justify-items: center;
-}
+}*/
 
   .white {
     /*background: url();*/
     /*background-size: cover;*/
      background: #ffffff;
-     /*color: #000000;
-     border: 3px solid #ffffff;
+     color: #000000;
+     /*border: 3px solid #ffffff;
      /*font-family: 'Gwendolyn';*/
      /*font-family: serif;
      font-size: 1.4rem;*/
@@ -30,25 +30,25 @@ body {
    
    .blue {
      background: #1202ec;
-     /*color: #40FFDC;
-     //border: 3px solid #00A9D4;
+     color: #000000;
+     /*border: 3px solid #00A9D4;
      font-family: 'Concert One';
      font-size: 1.0rem;*/
    }
    
    .red {
      background: #ff0000;
-     /*color: #EEE4A9;
-     border: 3px solid #FBCAC5;
-     font-family: 'Space Grotesk';
+     color: #000000;
+     /*border: 3px solid #000000;
+     /*font-family: 'Space Grotesk';
      font-size: 0.9rem;*/
    }
    
    .green {
      background: #00ff62;
-     /*color: #1B325F;
-     border: 3px solid #3A89C9;
-     font-family: 'Lato';
+     color: #f70606;
+     /*border: 3px solid #000000;
+     /*font-family: 'Lato';
      font-size: 0.9rem;*/
    }
 
