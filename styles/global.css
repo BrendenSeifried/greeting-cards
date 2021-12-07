@@ -10,3 +10,26 @@
 body {
     padding: 40px;
 }
+
+#container {
+  display: grid;
+  justify-items: center;
+}
+@media (min-width: 600px) {
+  #container {
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    grid-gap: 30px;
+  }
+
+  .white {
+    /*background: url();*/
+    /*background-size: cover;*/
+     background: #fafafa;
+     color: #000000;
+     border: 3px solid #ffffff;
+     /*font-family: 'Gwendolyn';*/
+     font-family: serif;
+     font-size: 1.4rem;
+   }
+}
