@@ -3,9 +3,10 @@
 :root {
   /* css variables with theme colors,
     names have to start with "--" */
-  --color-1: #b9af9e;
+  --color-1: #2c0ddb;
+ 
 }
 
 body {
-    
+    padding: 40px;
 }
