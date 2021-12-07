@@ -11,7 +11,7 @@
     <title>Your App</title>
 </head>
 
-<body>
+<body style="background-color:powderblue;">
     <h1>Birthday Card!</h1> 
 
    <input id="name-input">
@@ -22,11 +22,13 @@
    
     <h2>Write your name here.</h2> 
 
-    <input id="name-input">
+    <input id="sender">
     <p>
         Enter name of recipient.
-        <span id="animal-display"></span>
+        <span id="sent"></span>
     </p>
+
+    
 
     <label for="theme-select">Theme</label>
             <select id="theme-select">
@@ -35,7 +37,16 @@
                 <option value="forest">Red</option>
                 <option value="mountain">Green</option>
             </select>
-
+           
+            <h2>It is your birthday <span id="animal-display"></span> !  </h2>
+            
+            <img id="avatar-image" src="assets/hat.png">
+            <p id="birthday-message">
+               "You miss 100% of the shots you dont take ~Michael Jordan."~
+               
+            </p>    
+           
+    
 
     <script src="app.js" type="module"></script>
 </body>
