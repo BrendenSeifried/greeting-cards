@@ -18,10 +18,17 @@ sender.addEventListener('input', () => {
    
 //------------------------------------------------------------------------------------
 
+// Avatar
+const avatarSelect = document.getElementById('avatar-select');
+const avatarImage = document.getElementById('avatar-image');
+avatarSelect.addEventListener('change', () => {
+  avatarImage.src = avatarSelect.value;
+});
+
  // Theme
-const themeSelect = document.getElementById('theme-select');
-const themeColor = document.getElementById('theme-color');
-themeSelect.addEventListener('change', () => {
+//const themeSelect = document.getElementById('theme-select');
+//const themeColor = document.getElementById('theme-color');
+//themeSelect.addEventListener('change', () => {
   //themeColor.classList.value = '';
   //themeColor.classList.add(themeSelect.value);
-});
+//
