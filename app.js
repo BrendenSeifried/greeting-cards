@@ -30,4 +30,5 @@ const character = document.getElementById('character');
 themeSelect.addEventListener('change', () => {
   character.classList.value = '';
   character.classList.add(themeSelect.value);
+  console.log('check',themeSelect.value)
 });

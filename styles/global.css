@@ -39,7 +39,7 @@ body {
    }
    
    .red {
-     background: #ff0000;
+     background: #ff000038;
      color: #000000;
      /*border: 3px solid #000000;*/
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -48,7 +48,7 @@ body {
    }
    
    .green {
-     background: #00ff62;
+     background: #00ff625e;
      color: #000000;
      /*border: 3px solid #000000;*/
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
