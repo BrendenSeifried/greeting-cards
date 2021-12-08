@@ -20,8 +20,8 @@ sender.addEventListener('input', () => {
 
  // Theme
 const themeSelect = document.getElementById('theme-select');
-//const character = document.getElementById('character');
+const themeColor = document.getElementById('theme-color');
 themeSelect.addEventListener('change', () => {
-  //character.classList.value = '';
-  //character.classList.add(themeSelect.value);
+  //themeColor.classList.value = '';
+  //themeColor.classList.add(themeSelect.value);
 });

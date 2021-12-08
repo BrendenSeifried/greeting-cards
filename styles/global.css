@@ -11,6 +11,7 @@ body {
     padding: 40px;
 }
 
+
 /*#container {
   display: grid;
   justify-items: center;
@@ -21,8 +22,8 @@ body {
     /*background-size: cover;*/
      background: #ffffff;
      color: #000000;
-     /*border: 3px solid #ffffff;
-     /*font-family: 'Gwendolyn';*/
+     /*border: 3px solid #ffffff;*/
+     font-family: serif;
      /*font-family: serif;
      font-size: 1.4rem;*/
    }
@@ -34,20 +35,23 @@ body {
      /*border: 3px solid #00A9D4;
      font-family: 'Concert One';
      font-size: 1.0rem;*/
+     font-family: Arial, Helvetica, sans-serif;
    }
    
    .red {
      background: #ff0000;
      color: #000000;
-     /*border: 3px solid #000000;
+     /*border: 3px solid #000000;*/
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      /*font-family: 'Space Grotesk';
      font-size: 0.9rem;*/
    }
    
    .green {
      background: #00ff62;
-     color: #f70606;
-     /*border: 3px solid #000000;
+     color: #000000;
+     /*border: 3px solid #000000;*/
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      /*font-family: 'Lato';
      font-size: 0.9rem;*/
    }
