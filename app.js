@@ -25,10 +25,9 @@ avatarSelect.addEventListener('change', () => {
   avatarImage.src = avatarSelect.value;
 });
 
- // Theme
-//const themeSelect = document.getElementById('theme-select');
-//const themeColor = document.getElementById('theme-color');
-//themeSelect.addEventListener('change', () => {
-  //themeColor.classList.value = '';
-  //themeColor.classList.add(themeSelect.value);
-//
+const themeSelect = document.getElementById('theme-select');
+const character = document.getElementById('character');
+themeSelect.addEventListener('change', () => {
+  character.classList.value = '';
+  character.classList.add(themeSelect.value);
+});
