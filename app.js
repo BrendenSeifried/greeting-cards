@@ -18,7 +18,6 @@ sender.addEventListener('input', () => {
    
 //------------------------------------------------------------------------------------
 
-// Avatar
 const avatarSelect = document.getElementById('avatar-select');
 const avatarImage = document.getElementById('avatar-image');
 avatarSelect.addEventListener('change', () => {
@@ -30,5 +29,5 @@ const character = document.getElementById('character');
 themeSelect.addEventListener('change', () => {
   character.classList.value = '';
   character.classList.add(themeSelect.value);
-  console.log('check',themeSelect.value)
+ //console.log('check',themeSelect.value)
 });
